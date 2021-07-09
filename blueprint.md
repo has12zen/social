@@ -1,9 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Social Media Clone</h3>
 
@@ -38,7 +35,11 @@
 
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<!-- [![Product Name Screen Shot][product-screenshot]](images/screenshot.png) -->
+
+  <a href="#">
+    <img src="images/screenshot.png" alt="SNS Clone" >
+  </a>
 
 SNS to allow users to share information.
 
@@ -65,11 +66,11 @@ SNS to allow users to share information.
 ### Installation
 
 1. Install Prerequisites
-2. run backend in docker
+2. run backend
    ```sh
    cd backend
-    docker build -t Backend .
-    docker run -dp 3000:3000 Backend
+   npm run watch
+   npm run dev
    ```
 3. Run FrontEnd locally.
    ```sh
